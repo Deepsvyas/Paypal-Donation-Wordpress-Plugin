@@ -1,0 +1,16 @@
+.cits_form label { display: block; float: left; width: 130px; }
+.cits_form input[type="text"], .cits_form input[type="password"],
+.cits_form input[type="email"] {
+	padding: 4px 8px;
+	background: #f0f0f0;
+	border: 1px solid #ccc;
+}
+.cits_form input[type="text"]:focus, .cits_form input[type="password"]:focus,
+.cits_form input[type="email"]:focus {
+	border-color: #aaa;
+}
+ 
+.cits_errors { padding: 8px; border: 1px solid #f50; margin: 0 0 15px; }
+.error{
+	color: red;
+}
